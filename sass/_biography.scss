@@ -1,0 +1,153 @@
+.beth-bio {
+
+    padding: 6rem 8rem;
+    width: 100%;
+    background-image: 
+    linear-gradient(to right bottom, transparent 0%, rgba(0, 0, 0, .6) 60%), url(../img/boys-town-bg-2.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    color: #eee;
+
+    @media only screen and (max-width: $bp-large) {
+        padding: 4rem 4rem;
+    
+    }
+
+    @media only screen and (max-width: $bp-medium) {
+        padding: 2rem 3rem;
+    }
+
+   
+    &__img {
+        margin-bottom: 3rem;
+
+        @media only screen and (max-width: $bp-large) {
+            margin-bottom: 0rem;
+        }
+
+        @media only screen and (max-width: $bp-medium) {
+            margin-bottom: 0;
+            padding-top: 5rem;
+        }
+
+    }
+
+    &__text {
+        
+
+    }
+
+    &__header {
+
+
+    }
+
+    &__paragraph {
+
+        padding: 1rem 2rem;
+
+        @media only screen and (max-width: $bp-large) {
+        padding: 0;
+        }
+
+    }
+
+    &__link {
+
+        &:link,
+        &:visited {
+            color: #eee;
+            text-decoration: none;
+        }
+    }
+    &__publication {
+
+        font-size: 1.5rem;
+        padding: 0 5rem;
+
+    }
+
+    &__header--2 {
+        font-size: 3.5rem;
+        font-weight: 400;
+        text-align: center;
+        margin-bottom: 2.5rem;
+
+        @media only screen and (max-width: $bp-large) {
+        font-size: 2.5rem;
+        margin-bottom: 1.5rem;
+        }
+    }
+
+
+    &__publication--list { 
+
+        list-style: none;
+        margin-top: 2rem;
+        font-style: italic;
+
+        @media only screen and (max-width: $bp-large) {
+        margin-top: 1.5rem;
+        }
+
+    }
+
+    &__publication--item { 
+       margin-bottom: .8rem;
+    }
+
+    &__education {
+
+        font-size: 1.5rem;
+        padding: 0 5rem;
+ 
+    }
+
+    &__education--list {
+
+        
+        list-style: none;
+    }
+
+
+    &__education--item {
+         margin-bottom: .8rem;
+
+         @media only screen and (max-width: $bp-large) {
+        margin-bottom: .5rem;
+        }
+    }
+
+    &__btn {
+        &:link,
+        &:visited {
+            margin-top: 1.5rem;
+            font-size: 1.5rem;
+            color: #eee;
+            display: inline-block;
+            text-decoration: none;
+            border-bottom: 1px solid #eee;
+            padding: 3px;
+
+            @media only screen and (max-width: $bp-large) {
+            margin-top: 0rem;
+            }
+            }
+    }
+
+    &__icon {
+        height: 3rem;
+        width: 3rem;
+        fill: #eee;
+        margin-right: 1.7rem;
+
+        @media only screen and (max-width: $bp-large) {
+            height: 2.7rem;
+            width: 2.7rem;
+            margin-right: 1rem;
+        }
+
+    }
+}

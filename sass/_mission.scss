@@ -1,0 +1,76 @@
+.mission {
+
+
+        &__quote {
+
+            background-color: #fff;
+
+            margin: 10rem 0;
+            position: relative;
+            font-size: 1.6rem;
+            color: #787878;
+            font-style: italic;
+
+            padding: 7rem 5rem;
+            box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+            line-height: 1.9;
+            z-index: 5;
+
+        @media only screen and (max-width: $bp-large) {
+        font-size: 1.5rem;
+        margin: 8rem 0;
+        }
+
+        @media only screen and (max-width: $bp-medium) {
+            padding: 6rem 4rem;
+            margin: 6rem;
+        }
+
+        &::before {
+            content: "\201C";
+            position: absolute;
+            top: 2.5rem;
+            left: .5rem;
+            line-height: 1;
+            font-size: 25rem;
+        color:   #dad6d6; 
+            font-family: sans-serif;
+            z-index: -1;
+        }
+        
+
+    }
+
+    &__text {
+
+        align-self: center;
+        
+    }
+
+    &__header {
+
+        font-size: 4.8rem;
+        line-height: 1.1;
+        font-weight: 400;
+        margin-bottom: 6rem;
+
+        @media only screen and (max-width: $bp-large) {
+        font-size: 4.2rem;
+        }
+
+        @media only screen and (max-width: $bp-medium) {
+            margin-bottom: 4rem;
+            font-size: 3.8rem;
+        }
+    }
+
+    &__paragraph {
+
+        font-size: 1.6rem;
+
+        @media only screen and (max-width: $bp-large) {
+        font-size: 1.4rem;
+        }
+
+    }
+}

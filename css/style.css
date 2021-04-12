@@ -1,0 +1,556 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; }
+
+body {
+  font-family: 'Merriweather', sans-serif;
+  line-height: 1.6; }
+
+.contact {
+  background-color: #303030;
+  color: #fff; }
+  .contact__header--1 {
+    font-size: 4rem;
+    text-align: center;
+    padding-top: 4rem; }
+    @media only screen and (max-width: 65.6em) {
+      .contact__header--1 {
+        font-size: 3.5rem; } }
+  .contact__header--2 {
+    font-size: 2rem;
+    display: inline;
+    text-align: center; }
+    @media only screen and (max-width: 65.6em) {
+      .contact__header--2 {
+        font-size: 1.7rem; } }
+    @media only screen and (max-width: 42.2em) {
+      .contact__header--2 {
+        font-size: 1.5rem;
+        display: inline; } }
+  .contact__map {
+    margin-top: -3rem;
+    overflow: hidden; }
+    @media only screen and (max-width: 65.6em) {
+      .contact__map {
+        width: 250px;
+        height: 150px; } }
+    @media only screen and (max-width: 53.1em) {
+      .contact__map {
+        width: 150px;
+        height: 120px; } }
+    @media only screen and (max-width: 42.2em) {
+      .contact__map {
+        margin-top: 0; } }
+  .contact__icon {
+    width: 2rem;
+    height: 2rem;
+    fill: #fff;
+    display: inline-block;
+    margin-right: 2rem; }
+    @media only screen and (max-width: 42.2em) {
+      .contact__icon {
+        width: 1.5rem;
+        height: 1.5rem;
+        margin-right: 1rem; } }
+  .contact__paragraph {
+    font-size: 1.6rem; }
+    @media only screen and (max-width: 53.1em) {
+      .contact__paragraph {
+        font-size: 1.4rem; } }
+  .contact__mail {
+    margin-top: 6rem; }
+    @media only screen and (max-width: 42.2em) {
+      .contact__mail {
+        margin-top: 2.5rem; } }
+  .contact__email--2 {
+    margin-top: 6rem; }
+    @media only screen and (max-width: 42.2em) {
+      .contact__email--2 {
+        margin-top: 2.5rem; } }
+
+.header {
+  height: 75%; }
+
+.tools__section {
+  background-color: #303030; }
+
+.tools {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  grid-gap: 7rem;
+  margin-left: 13rem;
+  margin-right: 13rem;
+  padding-bottom: 10rem; }
+  @media only screen and (max-width: 53.1em) {
+    .tools {
+      grid-gap: 5rem;
+      margin-left: 8rem;
+      margin-right: 8rem; } }
+
+.mission {
+  display: flex;
+  justify-content: space-evenly; }
+  .mission__quote {
+    width: 40%; }
+    @media only screen and (max-width: 65.6em) {
+      .mission__quote {
+        width: 45%; } }
+  .mission__text {
+    width: 30%; }
+    @media only screen and (max-width: 65.6em) {
+      .mission__text {
+        width: 35%; } }
+
+.beth-bio {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 5rem; }
+  @media only screen and (max-width: 53.1em) {
+    .beth-bio {
+      grid-column-gap: 0; } }
+  .beth-bio__img {
+    text-align: center;
+    grid-column: 1 / 2;
+    grid-row: 1 / 2; }
+  .beth-bio__text {
+    margin-top: -6rem;
+    grid-column: 1 / 2; }
+  .beth-bio__header {
+    font-size: 4rem; }
+    @media only screen and (max-width: 65.6em) {
+      .beth-bio__header {
+        font-size: 3rem;
+        margin-bottom: 1rem; } }
+  .beth-bio__paragraph {
+    font-size: 1.6rem; }
+    @media only screen and (max-width: 65.6em) {
+      .beth-bio__paragraph {
+        font-size: 1.4rem; } }
+  .beth-bio__publication {
+    grid-row: 1 / 2;
+    grid-column: 2 / -1;
+    align-self: center; }
+  .beth-bio__education {
+    margin-top: -4rem; }
+    @media only screen and (max-width: 65.6em) {
+      .beth-bio__education {
+        margin-top: -3rem; } }
+
+.research {
+  background-color: #f8f8f8;
+  color: #303030; }
+  .research__content {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2rem; }
+  .research__text {
+    flex: 0 0 50%; }
+    @media only screen and (max-width: 42.2em) {
+      .research__text {
+        flex: 0 0 80%; } }
+  .research__img {
+    align-self: center;
+    flex: 0 1 auto; }
+    @media only screen and (max-width: 42.2em) {
+      .research__img {
+        display: none; } }
+
+.contact__container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 3rem 7rem;
+  grid-gap: 3rem; }
+  @media only screen and (max-width: 65.6em) {
+    .contact__container {
+      padding: 2rem 6rem; } }
+  @media only screen and (max-width: 53.1em) {
+    .contact__container {
+      grid-gap: 2rem; } }
+  @media only screen and (max-width: 42.2em) {
+    .contact__container {
+      padding: 1rem 3rem; } }
+
+.mission__quote {
+  background-color: #fff;
+  margin: 10rem 0;
+  position: relative;
+  font-size: 1.6rem;
+  color: #787878;
+  font-style: italic;
+  padding: 7rem 5rem;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+  line-height: 1.9;
+  z-index: 5; }
+  @media only screen and (max-width: 65.6em) {
+    .mission__quote {
+      font-size: 1.5rem;
+      margin: 8rem 0; } }
+  @media only screen and (max-width: 53.1em) {
+    .mission__quote {
+      padding: 6rem 4rem;
+      margin: 6rem; } }
+  .mission__quote::before {
+    content: "\201C";
+    position: absolute;
+    top: 2.5rem;
+    left: .5rem;
+    line-height: 1;
+    font-size: 25rem;
+    color: #dad6d6;
+    font-family: sans-serif;
+    z-index: -1; }
+
+.mission__text {
+  align-self: center; }
+
+.mission__header {
+  font-size: 4.8rem;
+  line-height: 1.1;
+  font-weight: 400;
+  margin-bottom: 6rem; }
+  @media only screen and (max-width: 65.6em) {
+    .mission__header {
+      font-size: 4.2rem; } }
+  @media only screen and (max-width: 53.1em) {
+    .mission__header {
+      margin-bottom: 4rem;
+      font-size: 3.8rem; } }
+
+.mission__paragraph {
+  font-size: 1.6rem; }
+  @media only screen and (max-width: 65.6em) {
+    .mission__paragraph {
+      font-size: 1.4rem; } }
+
+.tools__box {
+  background-color: #fff;
+  border-radius: 1%;
+  padding: 2rem;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  width: 100%;
+  height: 100%;
+  transition: all .2s; }
+  .tools__box:hover {
+    transform: translateY(-0.7rem); }
+
+.tools__img {
+  width: 100%;
+  object-fit: cover;
+  display: block;
+  height: 30%; }
+
+.tools__header--1 {
+  text-align: center;
+  font-size: 4.5rem;
+  padding: 6rem;
+  display: grid;
+  grid-template-columns: 1fr max-content 1fr;
+  grid-gap: 2rem;
+  align-items: center;
+  color: #fff; }
+  @media only screen and (max-width: 53.1em) {
+    .tools__header--1 {
+      font-size: 3.5rem; } }
+  .tools__header--1::before, .tools__header--1::after {
+    content: "";
+    height: 4px;
+    display: block;
+    background-color: #fff; }
+
+.tools__header--2 {
+  text-align: center;
+  padding: 1.5rem 0;
+  font-size: 2rem; }
+
+.tools__description {
+  font-size: 1.5rem; }
+
+.tools__link:link, .tools__link:visited {
+  display: inline-block;
+  position: relative;
+  margin-top: 5rem;
+  color: black;
+  text-decoration: none;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 1.7rem; }
+  .tools__link:link::after, .tools__link:visited::after {
+    content: "";
+    position: absolute;
+    height: .3rem;
+    width: 100%;
+    top: 3.5rem;
+    left: 0;
+    border-bottom: solid 2px #000; }
+
+.beth-bio {
+  padding: 6rem 8rem;
+  width: 100%;
+  background-image: linear-gradient(to right bottom, transparent 0%, rgba(0, 0, 0, 0.6) 60%), url(../img/boys-town-bg-2.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #eee; }
+  @media only screen and (max-width: 65.6em) {
+    .beth-bio {
+      padding: 4rem 4rem; } }
+  @media only screen and (max-width: 53.1em) {
+    .beth-bio {
+      padding: 2rem 3rem; } }
+  .beth-bio__img {
+    margin-bottom: 3rem; }
+    @media only screen and (max-width: 65.6em) {
+      .beth-bio__img {
+        margin-bottom: 0rem; } }
+    @media only screen and (max-width: 53.1em) {
+      .beth-bio__img {
+        margin-bottom: 0;
+        padding-top: 5rem; } }
+  .beth-bio__paragraph {
+    padding: 1rem 2rem; }
+    @media only screen and (max-width: 65.6em) {
+      .beth-bio__paragraph {
+        padding: 0; } }
+  .beth-bio__link:link, .beth-bio__link:visited {
+    color: #eee;
+    text-decoration: none; }
+  .beth-bio__publication {
+    font-size: 1.5rem;
+    padding: 0 5rem; }
+  .beth-bio__header--2 {
+    font-size: 3.5rem;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 2.5rem; }
+    @media only screen and (max-width: 65.6em) {
+      .beth-bio__header--2 {
+        font-size: 2.5rem;
+        margin-bottom: 1.5rem; } }
+  .beth-bio__publication--list {
+    list-style: none;
+    margin-top: 2rem;
+    font-style: italic; }
+    @media only screen and (max-width: 65.6em) {
+      .beth-bio__publication--list {
+        margin-top: 1.5rem; } }
+  .beth-bio__publication--item {
+    margin-bottom: .8rem; }
+  .beth-bio__education {
+    font-size: 1.5rem;
+    padding: 0 5rem; }
+  .beth-bio__education--list {
+    list-style: none; }
+  .beth-bio__education--item {
+    margin-bottom: .8rem; }
+    @media only screen and (max-width: 65.6em) {
+      .beth-bio__education--item {
+        margin-bottom: .5rem; } }
+  .beth-bio__btn:link, .beth-bio__btn:visited {
+    margin-top: 1.5rem;
+    font-size: 1.5rem;
+    color: #eee;
+    display: inline-block;
+    text-decoration: none;
+    border-bottom: 1px solid #eee;
+    padding: 3px; }
+    @media only screen and (max-width: 65.6em) {
+      .beth-bio__btn:link, .beth-bio__btn:visited {
+        margin-top: 0rem; } }
+  .beth-bio__icon {
+    height: 3rem;
+    width: 3rem;
+    fill: #eee;
+    margin-right: 1.7rem; }
+    @media only screen and (max-width: 65.6em) {
+      .beth-bio__icon {
+        height: 2.7rem;
+        width: 2.7rem;
+        margin-right: 1rem; } }
+
+.header {
+  background-image: linear-gradient(to right bottom, transparent 0%, rgba(0, 0, 0, 0.75) 60%), url(../img/boys-town-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: transparent; }
+  @media only screen and (max-width: 65.6em) {
+    .navbar {
+      font-size: 1.5rem; } }
+  .navbar__logo {
+    margin-left: 5rem;
+    width: 30rem; }
+    @media only screen and (max-width: 65.6em) {
+      .navbar__logo {
+        width: 25rem; } }
+  .navbar__text {
+    width: 40%; }
+    @media only screen and (max-width: 65.6em) {
+      .navbar__text {
+        width: 50%; } }
+    @media only screen and (max-width: 53.1em) {
+      .navbar__text {
+        width: 60%; } }
+  .navbar__list {
+    padding-top: 5rem;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.8rem;
+    margin-right: 4rem; }
+    @media only screen and (max-width: 65.6em) {
+      .navbar__list {
+        font-size: 1.5rem; } }
+  .navbar__link:link, .navbar__link:visited {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600; }
+
+.intro {
+  display: flex;
+  justify-content: space-around;
+  background-blend-mode: darken;
+  background-attachment: fixed;
+  background-size: cover; }
+  .intro__img {
+    display: inline-block;
+    width: 40%;
+    height: 100%;
+    min-width: 0;
+    margin: 9.5rem 5rem; }
+    @media only screen and (max-width: 65.6em) {
+      .intro__img {
+        margin: 7rem 3rem; } }
+  .intro__text {
+    flex: 0 0 40%;
+    margin-top: 4rem;
+    margin-left: -5rem;
+    color: #fff; }
+    @media only screen and (max-width: 65.6em) {
+      .intro__text {
+        flex: 0 0 45%;
+        margin-top: 3rem; } }
+    @media only screen and (max-width: 53.1em) {
+      .intro__text {
+        flex: 0 0 50%;
+        margin-left: -2rem;
+        margin-top: 0rem; } }
+  .intro__header {
+    font-size: 5rem;
+    line-height: 1.2;
+    margin-top: 5rem; }
+    @media only screen and (max-width: 65.6em) {
+      .intro__header {
+        font-size: 4rem;
+        margin-top: 2rem; } }
+    @media only screen and (max-width: 53.1em) {
+      .intro__header {
+        font-size: 3.5rem;
+        margin-top: 1rem; } }
+  .intro__paragraph {
+    margin-top: 4rem;
+    width: 75%;
+    font-size: 1.6rem;
+    font-style: italic;
+    position: relative; }
+    @media only screen and (max-width: 65.6em) {
+      .intro__paragraph {
+        font-size: 1.4rem; } }
+    .intro__paragraph::before {
+      content: "";
+      width: 30%;
+      height: .3rem;
+      border-top: solid 2px #eee;
+      position: absolute;
+      top: -20%; }
+  .intro__btn {
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 3rem 6rem;
+    font-weight: 600;
+    padding: 1rem;
+    border-radius: 0;
+    border: none;
+    position: relative;
+    overflow: hidden;
+    background-color: #eee;
+    color: #181818;
+    cursor: pointer;
+    transition: all .2s; }
+    .intro__btn:hover {
+      transform: scale(1.05); }
+
+.research {
+  padding: 5rem 3rem; }
+  @media only screen and (max-width: 65.6em) {
+    .research {
+      padding: 4rem 2rem; } }
+  .research__header--1 {
+    text-align: center;
+    font-size: 4rem; }
+    @media only screen and (max-width: 65.6em) {
+      .research__header--1 {
+        font-size: 3.5rem; } }
+  .research__header--2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin: 2rem 0; }
+  .research__header--3 {
+    font-size: 1.8rem;
+    margin-bottom: 2rem; }
+    @media only screen and (max-width: 65.6em) {
+      .research__header--3 {
+        font-size: 1.6rem; } }
+  .research__img {
+    overflow: hidden; }
+  .research__paragraph {
+    font-size: 1.7rem;
+    margin-left: 1.4rem; }
+    @media only screen and (max-width: 65.6em) {
+      .research__paragraph {
+        font-size: 1.5rem; } }
+  .research__btn {
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 1.5rem;
+    font-weight: 600;
+    padding: 1rem;
+    border-radius: 0;
+    border: none;
+    position: relative;
+    overflow: hidden;
+    background-color: #303030;
+    cursor: pointer;
+    transition: all .2s; }
+    .research__btn:hover {
+      transform: scale(1.05); }
+  .research__link:link, .research__link:visited {
+    text-decoration: none;
+    color: #eee; }
+
+.footer {
+  background-color: #303030;
+  color: #fff;
+  display: flex;
+  justify-content: center; }
+  .footer__text {
+    font-size: 1.5rem;
+    margin: 4rem 2.5rem; }
+  .footer__icon {
+    width: 2.5rem;
+    height: 2.5rem;
+    fill: #fff;
+    display: inline-block;
+    margin: 4rem 2.5rem; }
+  .footer__link {
+    fill: #fff; }

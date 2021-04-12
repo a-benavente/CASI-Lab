@@ -1,0 +1,27 @@
+.footer {
+    background-color: #303030;
+    color: #fff; 
+    display: flex;
+    justify-content: center;
+
+    &__text {
+
+        font-size: 1.5rem;
+        margin: 4rem 2.5rem;
+      
+    }
+
+    &__icon {
+        
+        width: 2.5rem;
+        height: 2.5rem;
+        fill: #fff;  
+        // background-color: #fff;
+        display: inline-block;
+        margin: 4rem 2.5rem;
+    }
+
+    &__link {
+        fill: #fff;
+    }
+}

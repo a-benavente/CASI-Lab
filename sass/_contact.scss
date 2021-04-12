@@ -1,0 +1,96 @@
+
+.contact{
+
+
+    background-color: #303030;
+    color: #fff;
+
+    &__header--1 {
+        font-size: 4rem;
+        text-align: center;
+        padding-top: 4rem;
+
+        @media only screen and (max-width: $bp-large) {
+        font-size: 3.5rem;
+        }
+
+    }
+
+    &__header--2 {
+        font-size: 2rem;
+        display: inline;
+        text-align: center;
+
+        @media only screen and (max-width: $bp-large) {
+        font-size: 1.7rem;
+        }
+
+        @media only screen and (max-width: $bp-small) {
+            font-size: 1.5rem;
+            display: inline;
+        }
+
+    }
+
+
+    &__map {
+        margin-top: -3rem;
+        overflow: hidden;
+        @media only screen and (max-width: $bp-large) {
+            width: 250px;
+            height: 150px;
+    
+        }
+
+        @media only screen and (max-width: $bp-medium) {
+            width: 150px;
+            height: 120px;
+        }
+
+        @media only screen and (max-width: $bp-small) {
+            margin-top: 0;
+        }
+       
+        
+    }
+
+    &__icon {
+        width: 2rem;
+        height: 2rem;
+        fill: #fff;
+        display: inline-block;
+        margin-right: 2rem;
+        @media only screen and (max-width: $bp-small) {
+            width: 1.5rem;
+            height: 1.5rem;
+            margin-right: 1rem;
+            
+        }
+    }
+
+    &__paragraph{
+        font-size: 1.6rem;
+
+        @media only screen and (max-width: $bp-medium) {
+            font-size: 1.4rem;
+        }
+        
+    }
+
+    &__mail {
+
+        margin-top: 6rem;
+
+        @media only screen and (max-width: $bp-small) {
+            margin-top: 2.5rem;
+        }
+    }
+
+    &__email--2 {
+        margin-top: 6rem;
+
+        @media only screen and (max-width: $bp-small) {
+            margin-top: 2.5rem;
+        }
+    }
+}
